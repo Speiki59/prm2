@@ -366,11 +366,11 @@ button:focus {
   }
 
   .about li article {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 
   .about li:nth-child(2n) article {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 
   .booking {
