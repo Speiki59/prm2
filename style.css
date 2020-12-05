@@ -66,6 +66,7 @@ article img {
   border-bottom: 3px dashed rgb(204, 6, 48);
 }
 
+
 .booking button {
   font-size: 30px;
   background-image: linear-gradient(#cc0630 0%, #8f0222 75%, #6d0019 100%);
@@ -272,6 +273,7 @@ footer img:hover {
 /* Кнопка вверх */
 
 .up-button {
+  background: transparent;
   position: fixed;
   z-index: 1;
   padding: 0;
