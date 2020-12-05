@@ -86,11 +86,11 @@ article img {
   margin: 50px;
 }
 
-.booking form {
+/* .booking form {
   padding: 100px 0;
   position: relative;
   margin: 0 auto;
-}
+} */
 
 /* Хeдер */
 header {
@@ -148,11 +148,11 @@ main section {
   flex-direction: column;
 }
 
-figcaption {
+/* figcaption {
   text-align: center;
   font-style: italic;
   color: gray;
-}
+} */
 
 .about article div {
   padding: 10px;
@@ -214,6 +214,8 @@ figcaption {
 .price a {
   padding: 5px;
   color: white;
+  font-size: 1.2em;
+  font-weight: 500;
   background: rgb(204, 6, 48);
   border-radius: 5px;
   text-decoration: none;
