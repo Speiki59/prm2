@@ -172,6 +172,7 @@ figcaption {
 
 .price {
   padding: 10px;
+  padding-bottom: 50px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -219,6 +220,7 @@ figcaption {
 }
 
 .price a:hover {
+  padding: 3px;
   color: rgb(204, 6, 48);
   background: white;
   border: 2px solid rgb(204, 6, 48);
@@ -274,8 +276,8 @@ footer img:hover {
   position: fixed;
   z-index: 1;
   padding: 0;
-  bottom: 75px;
-  right: 30px;
+  bottom: 20px;
+  right: 20px;
   width: 57px;
   height: 57px;
   font-size: 36px;
