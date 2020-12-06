@@ -105,6 +105,7 @@ header {
 }
 
 .menu ul {
+  padding-left: 50px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -121,6 +122,30 @@ header {
 .menu a:hover {
   color: rgb(204, 6, 48);
   border-bottom: 3px solid rgb(204, 6, 48);
+}
+
+.header-contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+  padding: 10px;
+  font-size: 1.2em;
+  line-height: 2.5em;
+}
+
+.header-contacts a {
+  text-decoration: none;
+  color: black;
+}
+
+.header-contacts img {
+  padding-top: 10px;
+}
+
+.header-contacts li img {
+ padding-right: 10px;
+ vertical-align: top;
 }
 
 /* Контентная часть */
@@ -217,7 +242,6 @@ main section {
   font-size: 0.75em;
 }
 
-
 .sale {
   position: absolute;
   background-color: yellow;
@@ -226,7 +250,7 @@ main section {
   transform: rotate(-30deg) scale(2);
   line-height: 1.2em;
   border: 1px solid black;
-  border-radius:3px;
+  border-radius: 3px;
 }
 
 .price p {
@@ -339,6 +363,10 @@ button:focus {
   body {
     width: 100%;
   }
+
+  /* .header-contacts {
+   transform: scale(.8);
+  } */
 }
 
 @media screen and (max-width: 768px) {
@@ -363,6 +391,10 @@ button:focus {
   .menu {
     font-size: 0.75em;
     padding: 5px;
+  }
+
+  .header-contacts {
+    display: none;
   }
 
   img {
