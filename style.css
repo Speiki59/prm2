@@ -181,6 +181,7 @@ main section {
 }
 
 .price div {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -195,6 +196,15 @@ main section {
   text-align: center;
 }
 
+.sale {
+  position: absolute;
+  background-color: yellow;
+  text-decoration: line-through;
+  font-weight: 700;
+  transform: rotate(-30deg) scale(2);
+  line-height: 1.2em;
+}
+
 .price b {
   padding: 10px;
   text-align: center;
@@ -205,6 +215,18 @@ main section {
 
 .price span {
   font-size: 0.75em;
+}
+
+
+.sale {
+  position: absolute;
+  background-color: yellow;
+  text-decoration: line-through;
+  font-weight: 700;
+  transform: rotate(-30deg) scale(2);
+  line-height: 1.2em;
+  border: 1px solid black;
+  border-radius:3px;
 }
 
 .price p {
