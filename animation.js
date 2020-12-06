@@ -7,7 +7,7 @@ animated.forEach(el => {
         entries[0].target.classList.add("animated_in");
       }
     },
-    { threshold: [0] }
+    { threshold: [0.1] }
   );
 
   observer.observe(el);
